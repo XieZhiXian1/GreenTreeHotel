@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_hui"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_mainpage"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/green_tree"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_news_center"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            style="@style/list_item_img_style"
+            android:src="@drawable/news"/>
+
+        <TextView
+            style="@style/list_item_text_style"
+            android:text="新闻中心"
+            android:textSize="16sp"/>
+
+        <ImageView
+            style="@style/list_item_common_go_style"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_activity_msg"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            style="@style/list_item_img_style"
+            android:src="@drawable/activity"/>
+
+        <TextView
+            style="@style/list_item_text_style"
+            android:text="活动信息"
+            android:textSize="16sp"/>
+
+        <ImageView
+            style="@style/list_item_common_go_style"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_my_order_form"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            style="@style/list_item_img_style"
+            android:src="@drawable/my_menu"/>
+
+        <TextView
+            style="@style/list_item_text_style"
+            android:text="我的订单"
+            android:textSize="16sp"/>
+
+        <ImageView
+            style="@style/list_item_common_go_style"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_news_login"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            style="@style/list_item_img_style"
+            android:src="@drawable/personal_center"/>
+
+        <TextView
+            style="@style/list_item_text_style"
+            android:text="用户登录"
+            android:textSize="16sp"/>
+
+        <ImageView
+            style="@style/list_item_common_go_style"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_app_push"
+        style="@style/list_title_item_style"
+        >
+
+        <ImageView
+            style="@style/list_item_img_style"
+            android:src="@drawable/more"/>
+
+        <TextView
+            style="@style/list_item_text_style"
+            android:text="应用推荐"
+            android:textSize="16sp"/>
+
+        <ImageView
+            style="@style/list_item_common_go_style"
+            android:src="@drawable/common_btn_go_selector"/>
+    </RelativeLayout>
+
+</LinearLayout>
